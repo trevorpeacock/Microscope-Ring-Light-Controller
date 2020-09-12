@@ -1,4 +1,9 @@
 //https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+//Board: ATTiny25/45/85
+//Processor: ATTiny85
+//Clock: Internal 8MHz
+
+//avrdude -cusbtiny -p ATtiny85 -U lfuse:w:0xe2:m
 
 #define BUTTON_PIN 3
 #define LED_EN_PIN 1
